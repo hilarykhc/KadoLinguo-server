@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
 router.get("/:quizId", (req, res) => {
   const quizzes = readQuizzes();
   const quizId = parseInt(req.params.quizId, 10);
-  const singleQuiz = quizzes.find((quiz) => quiz.id === req.params.quizId);
+  const singleQuiz = quizzes.find((quiz) => quiz.id === quizId);
   if (singleQuiz) {
     res.json(singleQuiz);
   } else {

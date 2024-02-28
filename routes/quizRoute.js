@@ -18,10 +18,15 @@ router.get("/", (req, res) => {
 });
 
 //GET single quiz
-router.get("/:id", (req, res) => {
+router.get("/:quizId", (req, res) => {
   const quizzes = readQuizzes();
+  const quizId = parseInt(req.params.quizId, 10);
   const singleQuiz = quizzes.find((quiz) => quiz.id === req.params.quizId);
-  res.json(singleQuiz);
+  if (singleQuiz) {
+    res.json(singleQuiz);
+  } else {
+    res.status(404).json({ error: "Quiz not found" });
+  }
 });
 
 module.exports = router;

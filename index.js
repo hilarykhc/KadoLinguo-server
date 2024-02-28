@@ -18,6 +18,7 @@ const cardRoutes = require("./routes/cardRoute");
 // all users routes
 app.use("/users", userRoutes);
 app.use("/cards", cardRoutes);
+app.use("/quiz", quizRoutes);
 
 app.listen(PORT, () => {
   console.log(`running at http://localhost:${PORT}`);

@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
 
 const userRoutes = require("./routes/userRoute");
 const cardRoutes = require("./routes/cardRoute");
+const quizRoutes = require("./routes/quizRoute");
 
 // all users routes
 app.use("/users", userRoutes);

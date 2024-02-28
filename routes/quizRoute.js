@@ -3,7 +3,7 @@ const router = express.Router();
 const fs = require("fs");
 const crypto = require("crypto");
 
-const FILE_PATH = "./quiz.json";
+const FILE_PATH = "./data/quiz.json";
 
 const readQuizzes = () => {
   const quizzesData = fs.readFileSync(FILE_PATH);

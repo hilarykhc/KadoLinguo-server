@@ -2,21 +2,21 @@
   {
     "id": 1,
     "text": "book 1",
-    "image": ""
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710314328/book1_o2kdr8.jpg"
   },
   {
     "id": 2,
     "text": "book 2",
-    "image": ""
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710314332/book2_wxhnoj.jpg"
   },
   {
     "id": 3,
     "text": "book 3",
-    "image": ""
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710314335/book3_nvpc1i.jpg"
   },
   {
     "id": 4,
     "text": "book 4",
-    "image": ""
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710314342/book4_zul6ll.jpg"
   }
 ]

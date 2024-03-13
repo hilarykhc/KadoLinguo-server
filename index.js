@@ -15,11 +15,15 @@ app.get("/", (req, res) => {
 const userRoutes = require("./routes/userRoute");
 const cardRoutes = require("./routes/cardRoute");
 const quizRoutes = require("./routes/quizRoute");
+const booksRoutes = require("./routes/booksRoute");
+const shopRoutes = require("./routes/shopRoute");
 
 // all users routes
 app.use("/users", userRoutes);
 app.use("/cards", cardRoutes);
 app.use("/quiz", quizRoutes);
+app.use("/books", booksRoutes);
+app.use("/shops", shopRoutes);
 
 app.listen(PORT, () => {
   console.log(`running at http://localhost:${PORT}`);

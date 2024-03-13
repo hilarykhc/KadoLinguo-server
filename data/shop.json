@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "postcard 1",
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710317262/postcard1_h9lwjr.jpg"
+  },
+  {
+    "id": 2,
+    "text": "postcard 2",
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710317266/postcard2_bejywt.jpg"
+  },
+  {
+    "id": 3,
+    "text": "pin",
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710317274/pin_a4ldfo.jpg"
+  },
+  {
+    "id": 4,
+    "text": "magnet",
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710317283/magnet_p5xho0.jpg"
+  },
+  {
+    "id": 5,
+    "text": "bookmark",
+    "image": "https://res.cloudinary.com/dcwoohdrl/image/upload/v1710317280/bookmark_cgyxhj.jpg"
+  }
+]
